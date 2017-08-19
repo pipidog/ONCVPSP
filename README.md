@@ -39,5 +39,7 @@ atoms, use sg15 instead for those atoms could solve the issues.
 nor sg15's input. However, you can easily find one in QE's database:
 http://www.quantum-espresso.org/pseudo-search-results/?el_id=78&unp_id=7&fun_id=12&colum_k=10&origin_id
 
-
-
+* Naming convention:
+xx.in => the input file for PSP generation
+xx_ONCV_PBE_sr.upf => scalar relativistic
+xx_ONCV_PBE_fr.upf => fully relativistic (for spin-orbit calculatons)
