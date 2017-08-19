@@ -28,7 +28,7 @@ http://www.quantum-espresso.org/pseudo-search-results/?el_id=78&unp_id=7&fun_id=
 
 * Naming convention:  
   xx.in => the input file for ONCVPSP generation  
-  xx_ONCV_PBE_sr.upf => scalar relativistic (for non-spin-orbit calculations) 
+  xx_ONCV_PBE_sr.upf => scalar relativistic (for non-spin-orbit calculations)   
   xx_ONCV_PBE_fr.upf => fully relativistic (for spin-orbit calculatons)
 
 * While it is not required under the terms of the GNU GPL, it is suggested that you cite D. R. Hamann, Phys. Rev. B 88, 085117 (2013) in any publication using these pseudopotentials.
