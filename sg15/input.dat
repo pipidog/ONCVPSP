@@ -1,0 +1,3402 @@
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+H 1 0 1 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+0
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.13043 0 5 8 9.72141
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.491248 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.27464
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+He 2 0 1 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+0
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.9853 0 5 8 7.17231
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.894308 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.34022
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Li 3 0 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.72619 0 5 8 7.75888
+1 1.39267 0.112921 5 8 11.1141
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.890137 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.03347
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Be 4 0 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.34061 0 5 8 7.76179
+1 1.87251 0.276606 5 8 7.99088
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.02986 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 2.43154
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+B 5 1 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.76439 0 5 8 8.06008
+1 1.90132 0 5 8 7.08856
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.36839 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.76885
+1 2 1.77366
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+C 6 1 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.41889 0 5 8 6.97628
+1 1.3829 0 5 8 8.59046
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.821639 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.09624
+1 2 1.2717
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+N 7 1 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.58808 0 5 8 8.23432
+1 1.50534 0 5 8 9.22597
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.10288 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 2.24547
+1 2 2.62189
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+O 8 1 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.28705 0 5 8 8.98916
+1 1.46383 0 5 8 9.1499
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.899093 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.51851
+1 2 1.53631
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+F 9 1 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.56741 0 5 8 8.73495
+1 1.64712 0 5 8 8.69707
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.962225 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.51125
+1 2 1.53167
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ne 10 1 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.61642 0 5 8 7.96858
+1 2.63783 0 5 8 6.60628
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.61477 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.54861
+1 2 1.11
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Na 11 1 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.45089 0 5 8 11.3497
+1 2.29645 0 5 8 6.7075
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.30269 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.02405
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Mg 12 1 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.23015 0 5 8 10.5442
+1 2.47041 0 5 8 6.93037
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.852908 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.67713
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Al 13 1 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.29163 0 5 8 10.3003
+1 2.40653 0 5 8 7.02214
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.932267 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 0
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Si 14 3 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.24524 0 5 8 4.77946
+1 3.52778 0 5 8 3.13498
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.31817 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.460665
+1 2 0.908023
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+P 15 3 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.4981 0 5 8 6.79891
+1 1.82648 0 5 8 9.63124
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.08885 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.26829
+1 2 2.62081
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+S 16 3 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.73712 0 5 8 6.15953
+1 1.79965 0 5 8 8.33071
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.880498 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.24422
+1 2 1.5679
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Cl 17 3 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.19999 0 5 8 6.35032
+1 1.75308 0 5 8 6.69921
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 0.807022 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.565482
+1 2 3.84129
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ar 18 3 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+1
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.16728 0 5 8 6.36305
+1 1.72156 0 5 8 6.77888
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.67649 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.489592
+1 2 3.82069
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+K 19 3 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.15762 0 5 8 5.88121
+1 2.30378 0 5 8 5.98033
+2 2.35439 0.210707 5 8 6.69467
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.04695 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.7424
+2 2 1.72705
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ca 20 3 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.22332 0 5 8 6.36134
+1 2.44278 0 5 8 6.21675
+2 2.38791 -0.0076495 5 8 7.67342
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.10449 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.25004
+2 2 1.26452
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Sc 21 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.90027 0 5 8 3.57171
+1 2.91345 0 5 8 6.69226
+2 2.36151 0 5 8 6.43528
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.89477 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.41496
+2 2 0.23043
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ti 22 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.44202 0 5 8 3.75809
+1 2.31661 0 5 8 6.54321
+2 2.24789 0 5 8 7.0348
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.6274 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.1246
+2 2 1.17895
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+V 23 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.72821 0 5 8 6.72517
+1 1.94904 0 5 8 8.52961
+2 2.00639 0 5 8 7.57582
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.70852 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.30431
+2 2 1.10604
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Cr 24 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.18118 0 5 8 6.20166
+1 2.36986 0 5 8 7.48991
+2 2.35953 0 5 8 6.97871
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.9946 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.7148
+2 2 0.80224
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Mn 25 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.4685 0 5 8 6.1688
+1 2.44923 0 5 8 7.85878
+2 2.09823 0 5 8 7.59051
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.90436 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.88908
+2 2 1.09448
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Fe 26 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.08576 0 5 8 6.68986
+1 2.09462 0 5 8 7.45338
+2 2.0473 0 5 8 8.55864
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.86744 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.97009
+2 2 1.24375
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Co 27 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 7
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.14717 0 5 8 6.19611
+1 2.0378 0 5 8 7.48645
+2 2.16918 0 5 8 7.72578
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.91287 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.87477
+2 2 1.11125
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ni 28 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 8
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.17241 0 5 8 6.78087
+1 2.18069 0 5 8 7.57642
+2 2.23861 0 5 8 8.25154
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.86401 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 3.05568
+2 2 1.27575
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Cu 29 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 9
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.90611 0 5 8 6.64634
+1 1.86621 0 5 8 7.69831
+2 1.8881 0 5 8 8.82467
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.67996 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.82761
+2 2 0.832312
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Zn 30 3 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+4 0 2
+3 2 10
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.94646 0 5 8 6.06305
+1 2.04404 0 5 8 7.61952
+2 2.0607 0 5 8 7.96873
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.67645 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 3.06307
+2 2 0.663136
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ga 31 5 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.32529 0 5 8 4.71712
+1 2.44265 0 5 8 4.59134
+2 1.96355 0 5 8 7.53761
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.87571 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.31404
+1 2 1.17643
+2 2 0.794397
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ge 32 5 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.65698 0 5 8 5.50547
+1 2.54145 0 5 8 5.2076
+2 2.64501 0 5 8 6.35698
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.00775 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.61622
+1 2 1.3207
+2 2 1.21107
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+As 33 6 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.62262 0 5 8 4.92865
+1 2.60545 0 5 8 5.22323
+2 2.61724 0.101831 5 8 5.34775
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.41035 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.48654
+1 2 1.49733
+2 2 1.52943
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Se 34 6 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.55138 0 5 8 4.65254
+1 2.68944 0 5 8 4.06948
+2 2.55874 0.0768094 5 8 4.64417
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.46459 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.801295
+1 2 1.00032
+2 2 0.647341
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Br 35 6 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.48883 0 5 8 5.10687
+1 2.48044 0 5 8 4.46675
+2 2.47352 0.0943157 5 8 4.91674
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.24325 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.26029
+1 2 1.41324
+2 2 1.05278
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Kr 36 6 2 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.7828 0 5 8 4.94079
+1 2.85046 0 5 8 4.26206
+2 2.85167 0.12317 5 8 4.58079
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.45618 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.4234
+1 2 1.52195
+2 2 1.31977
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Rb 37 6 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.1699 0 5 8 5.07318
+1 2.99399 0 5 8 5.66455
+2 2.86754 0.160485 5 8 6.12562
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.38085 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.19211
+2 2 1.22508
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Sr 38 6 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.79509 0 5 8 5.13478
+1 2.66577 0 5 8 6.0235
+2 2.37025 0.140521 5 8 6.40996
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.98361 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.67324
+2 2 1.13361
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Y 39 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.27806 0 5 8 5.62847
+1 2.06553 0 5 8 6.3443
+2 1.84644 0 5 8 7.02374
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.74033 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.5845
+2 2 1.34808
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Zr 40 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.48555 0 5 8 5.48929
+1 1.87924 0 5 8 7.1622
+2 2.166 0 5 8 6.42328
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.50152 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.125
+1 2 1.98432
+2 2 1.46036
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Nb 41 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.64906 0 5 8 7.07977
+1 1.6129 0 5 8 7.18907
+2 1.63554 0 5 8 7.3878
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.44006 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.22221
+1 2 2.08284
+2 2 1.25266
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Mo 42 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.30318 0 5 8 6.1434
+1 2.50298 0 5 8 5.89847
+2 2.5569 0 5 8 5.73514
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.53088 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.55891
+2 2 1.36726
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Tc 43 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.40651 0 5 8 5.83969
+1 2.56415 0 5 8 5.61871
+2 2.67326 0 5 8 5.549
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.55032 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.1374
+2 2 1.45895
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ru 44 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.56764 0 5 8 5.63432
+1 2.52194 0 5 8 5.80226
+2 2.61085 0 5 8 5.77581
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.51414 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.00836
+2 2 1.58175
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Rh 45 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 7
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.39883 0 5 8 5.70251
+1 2.55372 0 5 8 5.59007
+2 2.56033 0 5 8 5.53303
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.51421 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.52589
+2 2 1.61536
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Pd 46 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 8
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.42135 0 5 8 5.62509
+1 2.38883 0 5 8 5.81435
+2 2.22382 0 5 8 6.62505
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.40067 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.61678
+2 2 1.1631
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ag 47 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 9
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.6321 0 5 8 5.98964
+1 2.54829 0 5 8 6.43182
+2 2.45255 0 5 8 7.30643
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.52429 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 1.77866
+2 2 1.49541
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Cd 48 6 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+5 0 2
+4 2 10
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.32703 0 5 8 6.31277
+1 2.64642 0 5 8 6.2685
+2 3.01786 0 5 8 5.75293
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.6695 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.5
+1 2 2.03856
+2 2 1.20956
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+In 49 8 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.12764 0 5 8 3.99918
+1 3.1896 0 5 8 3.99615
+2 2.59564 0 5 8 6.87642
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.65034 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.993872
+1 2 1.08723
+2 2 1.72711
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Sn 50 8 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.93918 0 5 8 3.72712
+1 2.8719 0 5 8 3.8459
+2 2.50784 0 5 8 6.5218
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.60676 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.742278
+1 2 0.773941
+2 2 1.47265
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Sb 51 8 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.09538 0 5 8 3.54079
+1 2.83767 0 5 8 4.56321
+2 2.94372 0 5 8 5.50179
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.56745 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.26137
+1 2 0.328791
+2 2 1.35903
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Te 52 8 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.99259 0 5 8 3.76267
+1 2.90249 0 5 8 4.24861
+2 2.59012 0 5 8 6.79121
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.54248 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0.933793
+1 2 0.68596
+2 2 1.59744
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+I 53 8 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.20764 0 5 8 4.12278
+1 3.08677 0 5 8 4.43529
+2 2.69071 0 5 8 7.02173
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.62924 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.35796
+1 2 1.07222
+2 2 1.96622
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Xe 54 8 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.20017 0 5 8 5.37676
+1 3.2468 0 5 8 5.42791
+2 2.55421 0 5 8 6.51609
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.44186 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.17359
+1 2 0.9495
+2 2 2.44771
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Cs 55 9 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 6
+6 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.5364 0 5 8 5.20348
+1 2.56233 0 5 8 5.12889
+2 2.7597 0.0487787 5 8 6.0645
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.48686 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.61084
+2 2 1.74359
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ba 56 9 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 6
+5 2 1
+6 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.92779 0 5 8 4.58118
+1 2.92559 0 5 8 4.80909
+2 2.95594 0 5 8 5.73962
+3 2.5204 0.148147 5 8 7.53728
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.29845 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.60356
+2 2 1.8366
+3 2 1.30997
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+La 57 9 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+5 0 2
+5 1 6
+5 2 2
+6 0 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.88297 0 5 8 4.59909
+1 2.87057 0 5 8 4.82771
+2 2.91185 0 5 8 5.74897
+3 2.45324 0.143295 5 8 7.65618
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.26714 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.55615
+2 2 1.82348
+3 2 1.29328
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Hf 72 9 5 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.90333 0 5 8 8.71531
+1 2.1219 0 5 8 7.88813
+2 2.0429 0 5 8 7.52245
+3 2.99379 0 5 8 7.32892
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.71024 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.16544
+2 2 1.014
+3 2 1.39666
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ta 73 9 5 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.23281 0 5 8 7.29305
+1 2.16968 0 5 8 7.39495
+2 2.02329 0 5 8 7.64984
+3 2.96508 0 5 8 7.18998
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.83206 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.12019
+2 2 0.978549
+3 2 1.16935
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+W 74 9 5 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 4
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.12119 0 5 8 7.75777
+1 2.18626 0 5 8 7.39083
+2 1.88289 0 5 8 8.12535
+3 3.02857 0 5 8 7.15988
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.64048 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.26019
+2 2 1.03812
+3 2 1.31707
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Re 75 10 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 5
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.99308 0 5 8 7.07691
+1 2.04348 0 5 8 6.99225
+2 1.78793 0 5 8 7.20092
+3 2.60846 0.168183 5 8 5.49434
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.18162 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.4216
+2 2 1.16185
+3 2 1.2821
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Os 76 10 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 6
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 1.74139 0 5 8 7.69317
+1 1.84148 0 5 8 7.25952
+2 1.48918 0 5 8 7.69456
+3 2.58203 0.2527 5 8 4.79818
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.19005 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.19562
+2 2 0.808618
+3 2 1.22985
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Ir 77 10 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 7
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.29126 0 5 8 7.00413
+1 2.09646 0 5 8 7.73431
+2 2.27301 0 5 8 6.62769
+3 2.87478 0.197118 5 8 5.92437
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.39216 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.76098
+2 2 1.83951
+3 2 1.41793
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Pt 78 10 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 8
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.30721 0 5 8 7.09026
+1 2.29966 0 5 8 6.90276
+2 2.19355 0 5 8 6.7273
+3 2.99432 0.197748 5 8 5.51061
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.4123 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.71401
+2 2 1.75768
+3 2 1.52628
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Au 79 10 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 9
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.44032 0 5 8 6.08494
+1 2.4391 0 5 8 6.28249
+2 2.16959 0 5 8 6.84203
+3 3.12329 0.196457 5 8 4.94734
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.56781 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.58592
+2 2 1.29537
+3 2 1.78775
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Hg 80 10 4 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+6 0 2
+5 2 10
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 2.34099 0 5 8 6.55678
+1 2.31271 0 5 8 6.68406
+2 2.16548 0 5 8 6.85469
+3 3.19912 0.208581 5 8 4.9029
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 1.51561 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 0
+1 2 1.61678
+2 2 1.54805
+3 2 1.66977
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Tl 81 12 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+5 2 10
+6 0 2
+6 1 1
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.28671 0 5 8 4.13746
+1 3.62463 0 5 8 3.85498
+2 3.14268 0 5 8 6.35778
+3 3.31307 0.265718 5 8 6.11072
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.71984 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.28166
+1 2 0.902662
+2 2 1.15958
+3 2 1.22937
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Pb 82 12 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+5 2 10
+6 0 2
+6 1 2
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.53404 0 5 8 3.96156
+1 3.59528 0 5 8 3.58114
+2 3.28108 0 5 8 6.04705
+3 3.57558 0.267973 5 8 5.62297
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.89331 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.14841
+1 2 1.10423
+2 2 1.17152
+3 2 1.22641
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+=============================
+# ATOM AND REFERENCE CONFIGURATION
+# atsym, z, nc, nv, iexc   psfile
+Bi 83 12 3 4 upf+fpmd
+#
+# n, l, f  (nc+nv lines)
+1 0 2
+2 0 2
+2 1 6
+3 0 2
+3 1 6
+3 2 10
+4 0 2
+4 1 6
+4 2 10
+4 3 14
+5 0 2
+5 1 6
+5 2 10
+6 0 2
+6 1 3
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+3
+#
+# l, rc, ep, ncon, nbas, qcut  (lmax+1 lines, l's must be in order)
+0 3.59201 0 5 8 3.57648
+1 3.65041 0 5 8 3.63328
+2 2.99689 0 5 8 6.40958
+3 3.33713 0.235596 5 8 5.75105
+#
+# LOCAL POTENTIAL
+# lloc, lpopt, rc(5), dvloc0
+4 5 2.74397 0
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl  (lmax+1 lines, l's in order)
+0 2 1.12594
+1 2 1.11002
+2 2 1.38825
+3 2 1.25529
+#
+# MODEL CORE CHARGE
+# icmod, fcfact
+0 0
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-5.0  3.0  0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.0  0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
