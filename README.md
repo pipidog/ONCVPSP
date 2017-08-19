@@ -5,7 +5,7 @@ format.
 These ONCVPSP are converted by the PSP8 files provided by ABINIT database: 
 http://www.abinit.org/downloads/pseudodojo/pseudodojo
 
-I used the input files of this database to generated ONCVPSP in Quantum Espresso compatible 
+I used the input files of this database to regenerated ONCVPSP in Quantum Espresso compatible 
 UPF format. In addition, ONCVPSP with spin-orbit coupling (fully relativistic) are also 
 generated. 
 
