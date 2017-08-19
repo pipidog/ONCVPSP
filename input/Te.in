@@ -1,0 +1,54 @@
+# ATOM AND REFERENCE CONFIGURATION
+# atsym  z   nc   nv     iexc    psfile
+Te   52.00   8   3   4   upf
+#
+#   n    l    f        energy (Ha)
+1    0    2.00    -1.1623554D+03
+2    0    2.00    -1.7824669D+02
+2    1    6.00    -1.6000618D+02
+3    0    2.00    -3.5471810D+01
+3    1    6.00    -2.9543182D+01
+3    2   10.00    -2.0581524D+01
+4    0    2.00    -6.0411410D+00
+4    1    6.00    -4.2044568D+00
+4    2   10.00    -1.5307178D+00
+5    0    2.00    -5.5523115D-01
+5    1    4.00    -2.1877983D-01
+#
+# PSEUDOPOTENTIAL AND OPTIMIZATION
+# lmax
+2
+#
+#   l,   rc,     ep,   ncon, nbas, qcut
+0    2.25   -0.56    4    8    4.20
+1    1.90   -0.22    4    8    4.80
+2    1.80   -1.53    4    9    8.40
+#
+# LOCAL POTENTIAL
+# lloc, lpopt,  rc(5),   dvloc0
+4    5      1.80       0.00
+#
+# VANDERBILT-KLEINMAN-BYLANDER PROJECTORs
+# l, nproj, debl
+0    2    3.0000
+1    2    3.5000
+2    2    1.6000
+#
+# MODEL CORE CHARGE
+# icmod, fcfact, rcfact, rcfact
+3    5.00    1.43
+#
+# LOG DERIVATIVE ANALYSIS
+# epsh1, epsh2, depsh
+-12.00   12.00    0.02
+#
+# OUTPUT GRID
+# rlmax, drl
+6.00    0.01
+#
+# TEST CONFIGURATIONS
+# ncnf
+0
+# nvcnf
+#   n    l    f
+
