@@ -22,10 +22,7 @@ In this repository, I extract the input data from ABINIT and Sg15 database to re
 # Which database is more recommended?
 Both database are well-tested (check their websites for benchmarks). However I would more recommend to try ABINIT's database first. Not for any special reason, just because I had less difficulty (ghost states?) in their regeneration. Some elements in scalar relativistic using sg15's inputs failed. I guess ONCVPSP v3.x code has a major revision on its scalar relativistic algorithm. Although those inputs work well in v2.x, they fail in v3.x. If you find your calculatons do not behave well for some elements (usually the heavier ones) when using abinit's ONCVPSP, use sg15 instead for those elements could solve the issues. 
 
-# Notice
-* Regeneration of scalar relativistic NCPP for Pt was't succesful for both inputs. However, you can easily find an alternative one in QE's database:    
-http://www.quantum-espresso.org/pseudo-search-results/?el_id=78&unp_id=7&fun_id=12&colum_k=10&origin_id
-
+# Others
 * Naming convention:  
   xx.in => the input file for ONCVPSP generation  
   xx_ONCV_PBE_sr.upf => scalar relativistic (for non-spin-orbit calculations)   
