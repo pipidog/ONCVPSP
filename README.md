@@ -14,7 +14,9 @@ http://www.abinit.org/downloads/pseudodojo/pseudodojo
 The other one is provided by sg15 database:  
 http://www.quantum-simulation.org/potentials/sg15_oncv/
 
-The former is in psp8 format which is not compatible with Quantum Espresso (QE). The later is already in UPF format but these ONCVPSPs do not contain the PSWFC section (wave functions in PSP) which is required by projwfc.x, the code in QE to calculate PDOS and fatband, to project. As a result, neither of them is fully compatible with QE. You will always need to regenerate your own ONCVPSP in most QE calculatons especially when it comes to spin-orbit coupling. 
+The former is in psp8 format which is not compatible with Quantum Espresso (QE). The later is already in UPF format but these ONCVPSPs do not contain the PSWFC section (wave functions in PSP) which is required by projwfc.x, the code in QE to calculate PDOS and fatband, to project. As a result, neither of them is fully compatible with QE and, more importantly, neither one provide fully-relativisitc version (needed for spin-orbit coupling). 
+
+In short, you will always need to regenerate your own ONCVPSP in most QE calculatons especially when it comes to spin-orbit coupling. That's why I create the project. 
 
 # What are contained in this repository?
 In this repository, I extract the input data from ABINIT and Sg15 database to regenerate ONCVPSP in Quantum Espresso compatible UPF format. All ONCVPSP contains PSWFC section, so they should be compatible with all calculatons. Scalar relativistic and fully relativistic PP are both generated. If you're doing a spin-orbit calculatons, you should use fully relativistic ones. 
