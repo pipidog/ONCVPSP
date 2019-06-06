@@ -74,6 +74,10 @@ class oncvpsp_upf:
         # delete information part
         with open(self.wkdir+outname,'r') as file:
             flines=file.readlines()
+
+        for line in flines:
+            if line.find('WARNING') > 0:
+                print(line)
         
         lstart=self.__grep__(flines,'Begin PSP_UPF')
         lend=self.__grep__(flines,'END_PSP')
