@@ -32,4 +32,4 @@ Both database are well-tested (check their websites for benchmarks). However I w
 
 * While it is not required under the terms of the GNU GPL, it is suggested that you cite D. R. Hamann, Phys. Rev. B 88, 085117 (2013) in any publication using these pseudopotentials.
  
-* Use at your own risk! Although I used exactly the same input parameters as in the original ABINIT and SG15 database to regenerate ONCVPSPs in UPF format, the ONCVPSP code I used was in v3.x where the original ABINIT and SG15 database were generate in v2.x. Therefore, the calculated results could be different. You should always double check your results carefully.
+* Use at your own risk! Although I used exactly the same input parameters as in the original ABINIT and SG15 database to regenerate ONCVPSPs in UPF format, the ONCVPSP code I used was v3.x where the original ABINIT and SG15 database were generate by v2.x. Therefore, the calculated results could be different. You should always double check your results carefully.
